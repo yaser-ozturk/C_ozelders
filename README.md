@@ -1,0 +1,1 @@
+Bunlar c notlarıdır
