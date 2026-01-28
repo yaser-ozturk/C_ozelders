@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/C_ozel_Ders/Ders/cmake-build-debug/CMakeFiles/Ders.dir
+C:/Users/User/Desktop/C_ozel_Ders/Ders/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/C_ozel_Ders/Ders/cmake-build-debug/CMakeFiles/rebuild_cache.dir
