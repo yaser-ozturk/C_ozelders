@@ -1,4 +1,20 @@
-Bunlar c notlarıdır
+## DERS 1
+
+
+C ye giriş
+
+Fonksiyonlar
+
+Değişkenler
+
+## DERS 2 
+
+Ömürler ve Scope kavramı
+
+Operatörler
+
+#### Operatorler ile ilgili notlar
+
 
 ```` c
   ----------------------------------------------------------------
@@ -66,4 +82,58 @@ Bunlar c notlarıdır
   ----------------------------------------------------------------
 */
 ````
+
+
+
+
+## DERS 3 
+
+
+if 
+
+elif
+
+else 
+
+while
+
+for 
+
+do while
+
+
+
+## DERS 4 
+
+array
+
+pointer
+
+## DERS 5
+
+pointer
+
+
+## DERS 6 
+
+structer 
+
+union
+
+enum
+
+## DERS 7
+
+Kod inceleme ve yazım 
+
+
+
+## DERS 8
+
+file 
+
+
+
+
+
 
