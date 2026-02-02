@@ -2,7 +2,7 @@
 // geçerli bildirimler nelerdir neden  ?
 int main(void) 
 {
-signed x1; 
+signed x1; geçerli çünkü bu signed int x1; 
 unsigned double x2; geçersiz böyle bir tür yok
 long int long x3; 
 bool x4; bool true ve false için kullanılır geçersiz
