@@ -11,9 +11,9 @@ long long türü en az 4 byte olmak zorundadır. yanlış(8 bayt)
 
 char türünün işaretli ya da işaretsiz olması derleyiciye bağlıdır (implementation defined) doğru
 
-işaretli tamsayı türlerinde taşma tanımsız davranıştır (undefined behavior). 
+işaretli tamsayı türlerinde taşma tanımsız davranıştır (undefined behavior). yanlış
 
-işaretsiz tamsayı türlerinde taşma tanımsız davranıştır (undefined behavior).
+işaretsiz tamsayı türlerinde taşma tanımsız davranıştır (undefined behavior). doğru
 
 int x; biçiminde bildirilen x değişkeni işaretli int türündendir. doğru 
 
