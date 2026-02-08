@@ -21,6 +21,7 @@ int main()
 	} while (0);
 }
 ````
+// 1 yazar cunku i do döngüsüne 1 olarak girer ve 1 yazılır daha sonra değeri 1 arttırılır 2 olur. 2 <15 oldugu için continue komutu uygulanır ve do döngüsünden çıkılır.while döngüsüne gelinir.
 
 ## 2
 ```c
@@ -34,6 +35,7 @@ int main(void)
 		k = i++ <= 3;	
 }
 ````
+//donguye girildiğinde i=1 yani <=3 olmuş oluyor bu yuzden k true geldıgınden 1e eşit,i değeri 1 arttırılırdıgındada 2 oluyor.ilk dönguden 21 çıktısı alıyoruz. son cıktı 21314150 oluyor.
 
 ## 3
 ```c
@@ -48,6 +50,7 @@ int main(void)
 			printf("%d", x);
 }
 ````
+// önce dış while döngüsünden x=0 olarak çıkar ve iç while döngüne girip -1 olarak çıkar.tekrardan iç while döngüsüne -1 olarak girer -1>=0 olmadıgından sonuc false cıksada x 1 azaltılır ve -2 olur daha sonra dış while dongusune gider ve ordada aynı durum yaşanır. sonuc olarak -3 çıktısı alırız.
 
 ## 4
 ```c
@@ -64,4 +67,6 @@ int main(void)
     }
 }
 ````
+// '1' yerine 1 yazılsaydı cıktıyı 1 olarak alırdık. şu an cıktı alamıyoruz.
+
 
