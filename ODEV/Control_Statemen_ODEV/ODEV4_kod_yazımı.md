@@ -9,6 +9,44 @@ int x, y, z;
 	printf("uc tamsayi giriniz: ");
 	scanf("%d%d%d", &x, &y, &z);
 	/* code  */
+
+ int temp;
+
+    if(x>y) {
+        temp=x;
+        x=y;
+        y=temp;
+    }
+
+    if(x>z) {
+        temp=x;
+        x=z;
+        z=temp;
+    }
+
+    if(y>z) {
+        temp=y;
+        y=z;
+        z=temp;
+    }
+
+    printf("%d", x);
+
+    if(x<y) {
+        printf("<");
+    }else {
+        printf("=");
+    }
+
+    printf("%d", y);
+
+    if(y<z) {
+        printf("<");
+    }else {
+        printf("=");
+    }
+
+    printf("%d", z);
 }
 ````
 
