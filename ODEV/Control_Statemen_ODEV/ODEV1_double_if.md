@@ -20,4 +20,5 @@ int main(void)
 
 	return 0;
 }
+KAYAN NOKTALARI SAYILARDA DEĞERLER TAM TUTMADIGI İÇİN ELSE BLOGU ÇALIŞIR VE  d,1.degerinde degil çıktısı alınır.
 ````
