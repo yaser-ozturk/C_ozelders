@@ -18,19 +18,35 @@ Aşağıdaki test kodunu kullanabilirsiniz:
 
 #define     SIZE      1000
 
-int main(void)
-{
+int main(void){
+ int a[SIZE];
+    int frekans[500] = {0};
 
-	int a[SIZE];
+    srand((unsigned)time(0));
 
-	srand((unsigned)time(0));
+    for (int i = 0; i < SIZE; ++i) {
 
-	for (int i = 0; i < SIZE; ++i) {
-		a[i] = rand() % 500;  // rand() % 500 0 ile 500 arasında random sayı üretir
-		if (i && i % 20 == 0)
-			printf("\n");
-		printf("%3d ", a[i]);
-	}
-	///kod
-}
+        a[i] = rand() % 500;  // rand() % 500 0 ile 500 arasında random sayı üretir
+        frekans[a[i]]++;
+
+        if (i && i % 20 == 0)
+            printf("\n");
+        printf("%3d ", a[i]);
+    }
+
+    int mod = -1;
+    int tekrardegeri = 0;
+
+    for (int i= 0; i<500; i++) {
+        if(frekans[i] > tekrardegeri) {
+            tekrardegeri = frekans[i];
+            mod = i;
+        }
+    }
+
+    if(mod !=-1) {
+        printf("mod = %d\n", mod);
+        printf("ve %d kez tekrar ediyor\n", tekrardegeri);
+
+    }
 ````
